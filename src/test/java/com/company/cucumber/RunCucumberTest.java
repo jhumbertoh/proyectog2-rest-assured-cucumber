@@ -1,8 +1,8 @@
 package com.company;
 
-
-import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.CucumberOptions.SnippetType;
+import io.cucumber.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
@@ -14,8 +14,7 @@ import org.junit.runner.RunWith;
         tags = {"@ApiRest"},
         glue = {"com.company"},
         features = {"src/test/resources/features"},
-        monochrome = true, snippets = CucumberOptions.SnippetType.CAMELCASE)
+        monochrome = true, snippets = SnippetType.CAMELCASE)
 
 public class RunCucumberTest {
-
 }

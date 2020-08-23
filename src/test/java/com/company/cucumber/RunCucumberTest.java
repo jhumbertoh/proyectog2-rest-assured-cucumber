@@ -1,4 +1,4 @@
-package com.company;
+package com.company.cucumber;
 
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         "json:target/cucumber-reports/json-reports/Cucumber.json",
         "junit:target/cucumber-reports/json-reports/Cucumber.xml"},
         tags = {"@ApiRest"},
-        glue = {"com.company"},
+        glue = {"com.company.cucumber"},
         features = {"src/test/resources/features"},
         monochrome = true, snippets = SnippetType.CAMELCASE)
 

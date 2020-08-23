@@ -1,4 +1,4 @@
-package com.company.config;
+package com.company.cucumber.config;
 
 public class RedmineEnvironments {
 

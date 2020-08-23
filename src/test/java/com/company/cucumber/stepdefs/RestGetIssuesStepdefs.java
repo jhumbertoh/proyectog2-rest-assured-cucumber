@@ -1,8 +1,8 @@
-package com.company.stepdefs;
+package com.company.cucumber.stepdefs;
 
 
-import com.company.config.RedmineEndpoints;
-import com.company.config.RedmineEnvironments;
+import com.company.cucumber.config.RedmineEndpoints;
+import com.company.cucumber.config.RedmineEnvironments;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 import io.restassured.path.json.JsonPath;
